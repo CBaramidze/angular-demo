@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+  <div fxFlex fxLayoutGap="20px">
+    <span>Shopping Demo</span>
+    <a mat-button [routerLink]="['/products']" routerLinkActive="router-link-active">Products</a>
+    <a mat-button [routerLink]="['/orders']" routerLinkActive="router-link-active">Orders</a>
+  </div>
+  <div fxLayoutAlign="end">
+      <button mat-raised-button [matBadge]="count$ | async" matBadgePosition="before" matBadgeColor="accent" (click)="openDialog()">
+        Cart
+      </button>
+  </div>
+</mat-toolbar>

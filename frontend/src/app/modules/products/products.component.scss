@@ -1,0 +1,17 @@
+:host {
+  .products {
+    padding: 20px;
+
+    .card {
+      width: 300px;
+    }
+
+    .add-button {
+      width: 50px;
+    }
+
+    .product-image{
+      max-height: 200px;
+    }
+  }
+}

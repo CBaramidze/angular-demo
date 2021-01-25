@@ -1,0 +1,8 @@
+
+@import "../../styles/theme.scss";
+
+:host {
+  .router-link-active {
+    background: mat-color($app-accent);
+  }
+}

@@ -1,0 +1,20 @@
+<div role="listitem" *ngFor="let order of orders$ | async" class="order">
+  <mat-card>
+    <div *ngFor="let product of order.products">
+      <div fxLayout="row" fxLayoutAlign="space-between center" class="order">
+        <div>
+          {{product.quantity}}
+        </div>
+        <div>
+          {{ product.name }}
+        </div>
+        <div>
+          {{ product.price }}
+        </div>
+      </div>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="end center" class="order">
+      Total: {{ order.total }}
+    </div>
+  </mat-card>
+</div>

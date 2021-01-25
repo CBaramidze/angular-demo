@@ -1,0 +1,14 @@
+[
+  {
+    "name": "apples",
+    "image": "apples.png",
+    "description": "apples.....",
+    "price": 0.99 
+  },
+  {
+    "name": "oranges",
+    "image": "oranges.png",
+    "description": "oranges.....",
+    "price": 1.49
+  }
+]
